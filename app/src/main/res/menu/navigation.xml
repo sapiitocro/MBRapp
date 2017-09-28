@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group_nav_main"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Logout" />
+
+    </group>
+
+    <group
+        android:id="@+id/group_nav_cliente"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_registrar_ticket"
+
+            android:title="Registrar Ticket nuevo" />
+        <item
+            android:id="@+id/nav_consultar_ticket"
+
+            android:title="Consultar estado de sus Tickets" />
+
+
+    </group>
+    <group
+        android:id="@+id/group_nav_supervisor"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_consultar_todos_ticket"
+
+            android:title="Consultar todos los Tickets" />
+        <item
+            android:id="@+id/nav_asignar_ticket_tecnico"
+            android:title="Asignar Ticket a técnico" />
+        <item
+        android:id="@+id/nav_reporte_ticket"
+        android:title="Reporte de Tickets" />
+
+
+    </group>
+
+
+</menu>
